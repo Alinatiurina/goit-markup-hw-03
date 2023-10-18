@@ -68,12 +68,12 @@ ul {
 .page-header {
     background-color: #fff;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0 24px;
 }
 .nav-conteiner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px 0;
 }
 .page-nav {
     display: flex;
@@ -91,7 +91,6 @@ ul {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 24px 0;
 }
 .nav-logo {
     color: #4d5ae5;
