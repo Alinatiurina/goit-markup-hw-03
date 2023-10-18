@@ -49,6 +49,7 @@ ul {
     padding-right: auto;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px 0 15px;
 }
 .visually-hidden {
     position: absolute;
@@ -66,7 +67,7 @@ ul {
 
 .page-header {
     background-color: #fff;
-    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 .nav-conteiner {
     display: flex;
@@ -75,6 +76,7 @@ ul {
 }
 .page-nav {
     display: flex;
+    align-items: center;
 }
 .logo-accent {
     color: #2e2f42;
@@ -88,7 +90,8 @@ ul {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 0px 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .nav-logo {
     color: #4d5ae5;
@@ -98,6 +101,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .nav-link {
@@ -136,8 +140,7 @@ ul {
     height: 600px;
     flex-shrink: 0;
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 60px;
+    padding: 188px 0;
 }
 .hero-container {
     margin-bottom: 48px;
@@ -167,12 +170,15 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     display: block;
+    border: none;
     padding: 16px 32px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;
     background: var(--IRIS, #4d5ae5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    min-width: 169px;
+    height: 56px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -263,10 +269,9 @@ ul {
 .portfolio {
     justify-content: center;
     background-color: #fff;
-}
-.portfolio-container {
     padding: 120px 0;
 }
+
 .portfolio-title {
     font-size: 36px;
     text-align: center;
@@ -284,7 +289,7 @@ ul {
     justify-content: center;
 }
 .portfolio-item {
-    flex-basis: calc((100% - 2 * 24) / 3);
+    flex-basis: calc((100% - 48px) / 3);
     border: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 .portfolio-item img {
@@ -316,8 +321,11 @@ ul {
     padding-top: 101.5px;
     flex-shrink: 0;
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .nav-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-footer {
     color: #f4f4fd;
