@@ -49,7 +49,7 @@ ul {
     padding-right: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 .visually-hidden {
     position: absolute;
@@ -108,6 +108,7 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:active,
